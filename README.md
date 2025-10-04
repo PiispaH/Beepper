@@ -1,5 +1,7 @@
 # Beepper
 
+![PyPI downloads](https://img.shields.io/pypi/dm/beepper.svg)
+
 Simple interface to create an alert noise on linux, might need to apt install some packages.
 
 ### Usage
