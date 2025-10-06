@@ -1,6 +1,6 @@
+from typing import List
 import wave
 import numpy as np
-from typing import List
 
 
 def generate_wav(filepath: str) -> None:

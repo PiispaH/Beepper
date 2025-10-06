@@ -2,7 +2,7 @@
 
 [![PyPI downloads](https://img.shields.io/pypi/dm/beepper.svg)](https://pypi.org/project/beepper/)
 
-Simple interface to create an alert noise.
+Simple interface to create an alert noise. Might cause a [silent crash](https://github.com/hamiltron/py-simple-audio/issues/72) after the sound has stopped playing when using python 3.12.
 
 ### Usage
 

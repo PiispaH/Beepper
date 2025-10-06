@@ -25,9 +25,7 @@ def beep(vol: float = 1.0, blocking: bool = False) -> None:
         blocking (Optional, bool): If true, the function call is blocking
     """
     vol = max(0.0, min(1.0, vol))
-    filepath = os.path.join(
-        os.path.dirname(os.path.dirname(__file__)), ".data", "beep.wav"
-    )
+    filepath = os.path.join(os.path.dirname(__file__), ".data", "beep.wav")
     if os.path.exists(filepath):
         pass
     else:

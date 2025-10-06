@@ -1,3 +1,0 @@
-from .generate_wav import generate_wav as generate_wav
-
-def beep(vol: float = 1.0, blocking: bool = False) -> None: ...
