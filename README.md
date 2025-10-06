@@ -1,8 +1,8 @@
 # Beepper
 
-![PyPI downloads](https://img.shields.io/pypi/dm/beepper.svg)
+[![PyPI downloads](https://img.shields.io/pypi/dm/beepper.svg)](https://pypi.org/project/beepper/)
 
-Simple interface to create an alert noise on linux, might need to apt install some packages.
+Simple interface to create an alert noise.
 
 ### Usage
 
@@ -20,3 +20,5 @@ Example usage in a project:
     do_something_else()
 
 In the example, beep gets called after the loop. The function `do_something_else` gets called while the beep is still running in the backround.
+
+The sound can also be played in a blocking manner. By calling the function with an additional argument `beep(1.5, True)`, the program waits until the sound has stopped playing until the next line gets executed.
